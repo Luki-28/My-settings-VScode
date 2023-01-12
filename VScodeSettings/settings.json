@@ -1,0 +1,63 @@
+{
+	"files.autoSave": "afterDelay",
+	"breadcrumbs.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.linkedEditing": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"editor.formatOnSave": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"explorer.confirmDelete": false,
+
+	"liveSassCompile.settings.formats": [
+		// This is the default.
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+
+			// null for all three -> denotes the same path as the SASS file
+			"savePath": null,
+			"savePathReplacementPairs": null
+		}
+	],
+	"code-runner.runInTerminal": true,
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Windows PowerShell": {
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"react-native-tools.showUserTips": false,
+	"explorer.confirmDragAndDrop": false
+}
