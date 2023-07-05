@@ -3,9 +3,7 @@
 	"breadcrumbs.enabled": false,
 	"editor.wordWrap": "on",
 	"editor.linkedEditing": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"prettier.arrowParens": "avoid",
-	"prettier.jsxSingleQuote": true,
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"[html]": {
@@ -57,7 +55,15 @@
 			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 		}
 	},
-	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"react-native-tools.showUserTips": false,
-	"explorer.confirmDragAndDrop": false
+	"explorer.confirmDragAndDrop": false,
+	"notebook.breadcrumbs.showCodeCells": false,
+	"editor.accessibilitySupport": "off",
+	"prettier.jsxSingleQuote": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"javascript.suggest.enabled": false,
+	"php.validate.executablePath": "C:\\php\\php.exe",
+	"workbench.colorTheme": "Theme Mix",
+	"security.workspace.trust.untrustedFiles": "open"
 }
